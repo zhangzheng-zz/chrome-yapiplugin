@@ -24,6 +24,7 @@ export interface Responsexxx {
 /**
  * desc
  */
+
 export function @functionName(params: Paramsxxx): Promise<Responsexxx> {
   return @baseUrl.post(@baseUrl, { ...params });
 }
@@ -32,7 +33,7 @@ export function @functionName(params: Paramsxxx): Promise<Responsexxx> {
 
 post 请求的接口文档 & 自动生成的代码：
 
-![alt 属性文本](./src/img/demo.png)
+![demo的副本](https://user-images.githubusercontent.com/63552419/175759666-11263b41-4905-4e9a-a928-28a3ad78d1c2.png)
 
 ```ts
 export interface ParamsGetContact {

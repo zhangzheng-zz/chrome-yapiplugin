@@ -1,0 +1,24 @@
+{
+  "name": "chrome-yapiplugin",
+  "version": "0.1.0",
+  "description": "根据 yapi 接口文档自动生成前端 api 接口代码 & 响应数据和参数类型",
+  "scripts": {
+    "build": "rm -rf ./lib/js/main.js & tsc",
+    "publish": "npm run build & git push"
+  },
+  "keywords": [
+    "yapi",
+    "plugin",
+    "chrome-plugin",
+    "api",
+    "axios",
+    "fetch",
+    "javascript",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}

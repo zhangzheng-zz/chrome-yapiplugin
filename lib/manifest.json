@@ -1,0 +1,22 @@
+{
+	"name": "YapiJsontoTs",
+	"version": "1.0",
+	"manifest_version": 3,
+	"description": "根据 yapi 接口文档自动生成前端 api 接口代码 & 响应数据/参数 ts 类型声明",
+	"icons": {
+		"16": "img/logo.png",
+		"48": "img/logo.png",
+		"128": "img/logo.png"
+	},
+	"content_scripts": [{
+		"matches": ["https://api.seller.shopee.io/*"],
+		"js": ["js/index.js"],
+		"css": ["css/index.css"],
+		"run_at": "document_end"
+	}],
+	"web_accessible_resources": [{
+		"resources": ["js/*"],
+		"matches": ["<all_urls>"]
+	}],
+	"permissions": ["history"]
+}

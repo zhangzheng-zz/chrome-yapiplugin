@@ -1,0 +1,57 @@
+.btn-wrapper {
+  position: fixed;
+  top: 60px;
+  right: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 12px;
+  background-color: #fff;
+  padding: 2px;
+}
+
+.btn {
+  border: 1px solid rgb(217, 217, 217);
+  background-color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #000000d9;
+}
+
+.btn + .btn {
+  margin-top: 4px;
+}
+
+.config-wrapper {
+  position: fixed;
+  top: 70px;
+  right: 200px;
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 12px;
+  background-color: #fff;
+  padding: 10px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: 1.5px solid #4f9dfc;
+  border-radius: 10px;
+}
+
+.config-input {
+  margin-top: 10px;
+}
+
+.input {
+  outline-style: none;
+  border: 1px solid #4f9dfc;
+  border-radius: 3px;
+}
+
+.config-text {
+  margin-right: 10px;
+  font-size: 13px;
+  color: #4f9dfc;
+}
+
+#config-btn {
+  color: #4f9dfc;
+}

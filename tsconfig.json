@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "declaration": false,
+    "outDir": "./lib/js",
+    "outFile": "./lib/js/main.js",
+    "strict": true,
+    "lib": ["es2017", "DOM"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
